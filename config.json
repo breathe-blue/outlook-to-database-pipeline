@@ -1,0 +1,27 @@
+{
+    "filter": {
+        "subject"   : "test csv automation",
+        "sender"    : " "
+    },
+
+    "sql_db": {
+        "database" : " ",
+        "user" : " ",
+        "host" : " ",
+        "password" : " ",
+        "port" : " ",
+        "table_name" : " "
+    },
+
+    "email":{
+        "from": "",
+        "password" : " ",
+        "to" : " "
+    },
+
+    "file_dir"      :"E:/git-projects/csv-to-database",
+    "drop_fields"   : "[RecordTypeId, CreatedById]",
+    "id_field"      : "Opportun_1",
+    "chunk_size"    : 200   
+}
+
