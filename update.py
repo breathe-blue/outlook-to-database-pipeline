@@ -6,8 +6,6 @@ from sqlalchemy import create_engine, inspect
 import arcpy, datetime
 from extract import data, logging, file_dir
 
-
-
 def recent_file(attach_path):
     logging.info(f"Looking for CSV/XLSX/XLS files modified today in: {attach_path}")
     today = datetime.date.today()

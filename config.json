@@ -1,6 +1,6 @@
 {
     "filter": {
-        "subject"   : "test csv automation",
+        "subject"   : "test automation",
         "sender"    : " "
     },
 
@@ -21,7 +21,7 @@
 
     "file_dir"      :"E:/git-projects/csv-to-database",
     "drop_fields"   : "[RecordTypeId, CreatedById]",
-    "id_field"      : "Opportun_1",
+    "id_field"      : "office_id",
     "chunk_size"    : 200   
 }
 
