@@ -1,27 +1,24 @@
 {
     "filter": {
-        "subject"   : "test automation",
-        "sender"    : " "
+        "subject"   : "file automation",
+        "sender"    : "amaris.yamamoto@outlook.com"
     },
 
     "sql_db": {
-        "database" : " ",
-        "user" : " ",
-        "host" : " ",
-        "password" : " ",
-        "port" : " ",
-        "table_name" : " "
+        "database" : "office_register",
+        "user" : "postgres",
+        "host" : "127.0.0.1",
+        "password" : "**********",
+        "port" : "5432"
     },
 
     "email":{
-        "from": "",
-        "password" : " ",
-        "to" : " "
+        "from": "notifications@outlook.com",
+        "password" : "*********",
+        "to" : "management@gmail.com"
     },
 
     "file_dir"      :"E:/git-projects/csv-to-database",
-    "drop_fields"   : "[RecordTypeId, CreatedById]",
-    "id_field"      : "office_id",
-    "chunk_size"    : 200   
+    "id_field"      : "office_id"   
 }
 
