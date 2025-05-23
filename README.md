@@ -69,14 +69,9 @@ Edit the `config.json` file to set:
 
 ### 4. Run the Script
 After updating the configuration, simply run extract.py. If everything is set up correctly, it will automatically trigger update.py and notification.py using subprocesses.
-<br>
-
-📌 **Note**:
-- Run scripts as Administrator for Outlook access and file permissions.
-- Can be automated using task schedulers
-<br>
 
 <br>
+
 
 ## 🤝 Contributions
 
